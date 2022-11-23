@@ -52,9 +52,12 @@ namespace BadBrokerRates.Service
             object[] bestCurrRevenue = revenueByCurr.MaxBy(x => ((decimal)x[1]));
 
             bestRate.Tool = (string)bestCurrRevenue[0];
-            bestRate.Revenue = (decimal)bestCurrRevenue[1];
+            bestRate.Revenue = System.Math.Round((decimal)bestCurrRevenue[1], 2);
             bestRate.BuyDate = (DateTime)bestCurrRevenue[2];
             bestRate.SellDate = (DateTime)bestCurrRevenue[3];
+
+            rates = rates.ToDictionary(x => x.Key, x => x.Value.ToDictionary(y => y.Key, y => System.Math.Round(y.Value, 2)));
+
             bestRate.Rates = rates;
 
             return bestRate;
