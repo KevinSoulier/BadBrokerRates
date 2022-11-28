@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BadBrokerRates", "BadBrokerRates\BadBrokerRates.csproj", "{7F116F9E-3A7A-4B58-94EB-7091450B4CDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BadBrokerRates.WebApi", "BadBrokerRates\BadBrokerRates.WebApi.csproj", "{7F116F9E-3A7A-4B58-94EB-7091450B4CDB}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExchangeRates.Client", "OpenExchangeRates.Client\ExchangeRates.Client.csproj", "{D73243AC-5955-410C-8E4A-3B169FC9BEDB}"
 EndProject
@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BadBrokerRates.Repository",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BadBrokerRates.Test", "BadBrokerRates.Test\BadBrokerRates.Test.csproj", "{44258EBF-42BE-496B-9980-CC14E4D7D2F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadBrokerRates.Providers", "BadBrokerRates.Provider\BadBrokerRates.Providers.csproj", "{1EF824EF-B1F3-482B-ACF9-742BFB8E7BB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BadBrokerRates.Providers", "BadBrokerRates.Provider\BadBrokerRates.Providers.csproj", "{1EF824EF-B1F3-482B-ACF9-742BFB8E7BB7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

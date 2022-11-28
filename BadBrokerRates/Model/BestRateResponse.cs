@@ -1,4 +1,4 @@
-﻿namespace BadBrokerRates.Model
+﻿namespace BadBrokerRates.WebApi.Model
 {
     public class BestRateResponse
     {

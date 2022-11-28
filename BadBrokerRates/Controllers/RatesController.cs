@@ -1,10 +1,10 @@
-﻿using BadBrokerRates.Model;
+﻿using BadBrokerRates.WebApi.Model;
 using BadBrokerRates.Service.Model;
 using BadBrokerRates.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BadBrokerRates.Controllers
+namespace BadBrokerRates.WebApi.Controllers
 {
     [Route("api/rates")]
     [ApiController]
